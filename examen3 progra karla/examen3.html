@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el número</title>
+    
+</head>
+<body>
+    <h1>Adivina el número entre 1 y 100</h1>
+    <div id="game-container">
+        <label for="guess">Introduce tu número:</label>
+        <input type="number" id="guess" min="1" max="100">
+        <button onclick="checkGuess()">Adivinar</button>
+        <p id="message"></p>
+        <p id="attempts">Intento: <span id="attempt-count">1</span></p>
+        <button onclick="restartGame()">Reiniciar</button>
+    </div>
+    <script src="examen3.js"></script>
+</body>
+</html>
